@@ -1,0 +1,9 @@
+Package: com.fixindicatordots14
+Name: FixIndicatorDots14
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: IMPORTANT: Intended for iPhone X devices on 14.3 that are upscaled to 2688x1242!
+Maintainer: Bungle
+Author: Bungle
+Section: Tweaks
+Depends: ws.hbang.common, mobilesubstrate (>= 0.9.5000)
