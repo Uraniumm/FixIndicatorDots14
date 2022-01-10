@@ -1,11 +1,11 @@
 {
 	"ENABLE_TWEAK" = "Enable Tweak";
 	"RESPRING" = "Respring";
-	"SETTINGS" = "Manual Overrides"
+	"SETTINGS" = "Manual Overrides";
 	"SIDE_OFFSET" = "Side Offset (+/-):";
 	"TOP_OFFSET" = "Top Offset (+/-):";
 	"ADJUST_SIZE" = "Adjust Size (+/-):";
-	"SIDE_INFO" = "Side Offset:\nNegative values move things right.\n0 achieves default position.\nPositive values move things left";
+	"SIDE_INFO" = "Side Offset:\nNegative values move things right.\n0 achieves default position.\nPositive values move things left.";
 	"TOP_INFO" = "Top Offset:\nNegative values move things up.\n0 achieves default position.\nPositive values move things down.";
 	"SIZE_INFO" = "Adjust Size:\nNegative values makes things smaller.\n0 achieves default size.\nPositive values makes things larger.";
 }
