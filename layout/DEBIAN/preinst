@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f /var/mobile/Library/Preferences/com.fixindicatordots14.plist 2> /dev/null
+
+exit 0

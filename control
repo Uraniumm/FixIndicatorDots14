@@ -1,9 +1,10 @@
 Package: com.fixindicatordots14
 Name: FixIndicatorDots14
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
-Description: IMPORTANT: Intended for iPhone X devices on 14.3 that are upscaled to 2688x1242!
+Description: Adjust the position of the sensor activity indicator dots in iOS 14.
 Maintainer: Bungle
 Author: Bungle
 Section: Tweaks
-Depends: ws.hbang.common, mobilesubstrate (>= 0.9.5000)
+Icon: https://github.com/temp1122-sys/FixIndicatorDots14/raw/main/fixindicatordots14prefs/Resources/icon%403x.png
+Depends: ws.hbang.common, mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)

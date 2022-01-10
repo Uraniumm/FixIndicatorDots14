@@ -4,11 +4,19 @@
 <dict>
 	<key>items</key>
 	<array>
+                <dict>
+                        <key>action</key>
+                        <string>respring:</string>
+                        <key>cell</key>
+                        <string>PSButtonCell</string>
+                        <key>label</key>
+                        <string>RESPRING</string>
+                </dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Enable Tweak</string>
+			<string>SETTINGS</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -20,7 +28,7 @@
 			<key>key</key>
 			<string>tweakEnabled</string>
 			<key>label</key>
-			<string>Enable</string>
+			<string>ENABLE_TWEAK</string>
                         <key>PostNotification</key>
                         <string>com.fixindicatordots14/preferences.changed</string>
 		</dict>
@@ -28,9 +36,9 @@
                         <key>cell</key>
                         <string>PSEditTextCell</string>
                         <key>placeholder</key>
-                        <string>20.0</string>
+                        <string>0.0</string>
                         <key>bestGuess</key>
-                        <string>20.0</string>
+                        <string>0.0</string>
                         <key>defaults</key>
                         <string>com.fixindicatordots14</string>
                         <key>nil</key>
@@ -38,7 +46,7 @@
                         <key>key</key>
                         <string>xoffset</string>
                         <key>label</key>
-                        <string>CG Origin (X-var)</string>
+                        <string>SIDE_OFFSET</string>
                         <key>PostNotification</key>
                         <string>com.fixindicatordots14/preferences.changed</string>
                </dict>
@@ -56,7 +64,7 @@
                         <key>key</key>
                         <string>yoffset</string>
                         <key>label</key>
-                        <string>CG Origin (Y-var)</string>
+                        <string>TOP_OFFSET</string>
                         <key>PostNotification</key>
                         <string>com.fixindicatordots14/preferences.changed</string>
                </dict>
@@ -64,38 +72,38 @@
                         <key>cell</key>
                         <string>PSEditTextCell</string>
                         <key>placeholder</key>
-                        <string>414.0</string>
+                        <string>0.0</string>
                         <key>bestGuess</key>
-                        <string>414.0</string>
+                        <string>0.0</string>
                         <key>defaults</key>
                         <string>com.fixindicatordots14</string>
                         <key>nil</key>
                         <true/>
                         <key>key</key>
-                        <string>xsize</string>
+                        <string>size</string>
                         <key>label</key>
-                        <string>CG Size Width</string>
+                        <string>ADJUST_SIZE</string>
                         <key>PostNotification</key>
                         <string>com.fixindicatordots14/preferences.changed</string>
                </dict>
-                <dict>
-                        <key>cell</key>
-                        <string>PSEditTextCell</string>
-                        <key>placeholder</key>
-                        <string>896.0</string>
-                        <key>bestGuess</key>
-                        <string>896.0</string>
-                        <key>defaults</key>
-                        <string>com.fixindicatordots14</string>
-                        <key>nil</key>
-                        <true/>
-                        <key>key</key>
-                        <string>ysize</string>
-                        <key>label</key>
-                        <string>CG Size Height</string>
-                        <key>PostNotification</key>
-                        <string>com.fixindicatordots14/preferences.changed</string>
-               </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>SIDE_INFO</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>TOP_INFO</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>SIZE_INFO</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>PimpsAtSea (Alpha)</string>
